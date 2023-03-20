@@ -9,8 +9,8 @@ while True:
     if state < 0:
         quit()
     else:
-        x = random.randint(683, 1217)
-        y = random.randint(338, 1000)
+        x = random.randint(415, 1190)
+        y = random.randint(223, 1060)
         print(str(x) + " " + str(y))
         mouse.move(x, y, duration = 0.002)
         mouse.click()
